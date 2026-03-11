@@ -3,7 +3,7 @@ name: Cardano Node Monitor
 on:
   schedule:
     # Запуск у 40-ту хвилину кожні 4 години (00:40, 04:40 і т.д.)
-    - cron: '40 */5 * * *'
+    - cron: '40 */7 * * *'
   workflow_dispatch:
 
 jobs:
